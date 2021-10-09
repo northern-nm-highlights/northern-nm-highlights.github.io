@@ -1,0 +1,17 @@
+remote_theme: ddc-java/ddc-day
+repository_links:
+  enabled: false
+page_navigator:
+  enabled: false
+titles_from_headings:
+  enabled: false
+
+# Modify the contents below for the specific project.
+
+title: "Capstone Project Proposal"       # Write the project title inside the quotes.
+description: "Trust me, it'll be cool!"  # Write the project description inside the quotes
+author:                                  # Don't do anything with this line!
+  name: "Java+Android Student"           # Write your name inside the quotes.
+
+# Do not modify the following line!
+  copyright: true  

@@ -8,10 +8,11 @@ titles_from_headings:
 
 # Modify the contents below for the specific project.
 
-title: "Capstone Project Proposal"       # Write the project title inside the quotes.
-description: "Trust me, it'll be cool!"  # Write the project description inside the quotes
+title: "Northern New Mexico Highlights"       # Write the project title inside the quotes.
+description: "An app that will tell you the highlights of places to go see,
+ while in or close to a particular city. "  # Write the project description inside the quotes
 author:                                  # Don't do anything with this line!
-  name: "Java+Android Student"           # Write your name inside the quotes.
+  name: "Layla Coriz"           # Write your name inside the quotes.
 
 # Do not modify the following line!
   copyright: true  

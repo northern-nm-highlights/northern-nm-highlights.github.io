@@ -1,42 +1,39 @@
 ## Summary
+    This app will show you what places to visit and what to see when visiting a certain city or surrounding area, in Northern New Mexico.
+The surrounding 'highlights' of that city will appear. 'Highlights' being points of interest, historical markers, churches,
+or even just a great restaurant! The user will be able to find some of the most interesting and highly recommended
+places to visit and see in the great wilderness and cities of northern New Mexico! 
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the software you propose to develop in this project.
+My app will use input from the user and turn it into pictures of places to see, as well as a description of the places as well.
+
 
 ## Intended users
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
+*Users will be an out of state visitor, visiting northern New Mexico and wanting some good advice as where to go. 
+* Northern New Mexico people needing a place to go where they have never been. 
+>Out-of-state visitors likely have never been here, and are in need of a little good advice on where to go! 
 
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user performs using the app, and the benefit that will be obtained. The simplest user stories take the form 
+>Many local people have never been as far as 2 hours away from their home in there entire life!
 
-> As a <type of intended user (_who_)> I want to <use of feature or functionality (_what_)> so that <benefit (_why_).
-
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
-
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
-
-* People who like to use randomness in their decision making.
-
-    > As someone who enjoys randomness in my life, I need an app that lets me flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness, without having to carry coins or dice in my pockets.
 
 ## Client component
 
 ### Functionality
 
-List the key functional aspects that will be provided by the user interface---i.e. tell us what the user will be able to do in the GUI.
+>The person using this app will be able to type in the city , or surrounding area and be able to see some cool places in that area!
 
-### Persistent data
-
-List the content that will be stored on the client side. This should include any information that a user of your system should expect to be maintained locally (i.e. without connection to a server) across multiple sessions of use, on a single device. 
+The local content will consist of four different places of interest local to that area. 
     
 ### Device/external services
 
-If the client component will need to access special services of the device (e.g. sensors, contacts, messaging), list them here. Also, if the client component will need to access already-existing external services (e.g. real-time weather data, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
-    
+On the city entered , it could also pop up a  link to click on. It would be using a web service that is specific to northern New Mexico.
+
 ## Server component
+The internet would provide pictures and information on the place by the person wanting to go.
+
 
 ### Functionality
-
-List the key functional aspects that will be provided by the server component---i.e. tell us what parts of the system functionality will be performed by the server.
+The internet would provide information on the link provided.
 
 ### Persistent data
 

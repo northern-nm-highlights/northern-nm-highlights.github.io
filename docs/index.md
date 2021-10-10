@@ -35,13 +35,12 @@ The internet would provide pictures and information on the place by the person w
 ### Functionality
 The internet would provide information on the link provided.
 
-### Persistent data
-
-List the content that will be stored on the server side. This should include any information that a user of your system should expect to be accessible across multiple sessions of use, even if accessed from separate devices. In addition, if there will be data originating from some users that will then be accessible by other users, it should be part of the persistent data on the server. 
+### Persistent Data
+* The user will be able to type in the name of the city and be directed to a link for that city, as well as places of interest in the surrounding area.
     
 ### External services
 
-If the server component will need to access already-existing external services (e.g. stock prices, Open Movie Database), those should also be listed here. Any such references to external services should include links to the main page or API description page for the service.
+So the user will also have a link, if the particular place where they are going has one, to access.
     
 ## Stretch goals/possible enhancements 
 

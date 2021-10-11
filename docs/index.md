@@ -21,16 +21,16 @@ My app will use input from the user and turn it into pictures of places to see, 
 
 ### Functionality
 
->The person using this app will be able to type in the name of a city , and see the surrounding area and be able to see some cool places in that area!
+* The person using this app will be able to type in the name of a city , and see the surrounding area and be able to see some cool places in that area!
 
-The local content will consist of two different places of interest local to that area. 
+* The local content will consist of two different places of interest local to that area. 
     
 ### Device/external services
 
-On the city entered , it could also pop up a  link to click on. It would be using a web service that is specific to northern New Mexico.
+>On the city entered , it could also pop up a  link to click on. It would be using a web service that is specific to northern New Mexico.
 
-## Server component
-The app would provide pictures and information on the place, being put in by the person, on where points of interest, and cool places to see.
+## Server component 
+>The app would provide pictures and information on the place, being put in by the person, on where points of interest, and cool places to see.
 
 
 ### Functionality
@@ -42,7 +42,7 @@ The app would provide information on the link provided according to the city nam
     
 ### External services
 
-So the user will also have a link, if the particular place where they are going has one, to access.
+>So the user will also have a link, if the particular place where they are going has one, to access.
     
 ## Stretch goals/possible enhancements
 

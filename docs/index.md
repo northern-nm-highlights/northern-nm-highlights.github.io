@@ -1,4 +1,5 @@
 ## Summary
+
     This app will show you what places to visit and what to see when visiting a certain city or surrounding area, in Northern New Mexico.
 The surrounding "Highlights" of that city will appear. "Highlights" being points of interest, historical markers, churches,
 or even just a great restaurant! The user will be able to find some of the most interesting and highly recommended

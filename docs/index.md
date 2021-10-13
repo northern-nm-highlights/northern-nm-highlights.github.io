@@ -12,9 +12,10 @@ My app will use input from the user and turn it into pictures of places to see, 
 
 * Users will be an out-of-state visitor, visiting Northern New Mexico and wanting some good advice as where to go. 
 * Northern New Mexico people needing a place to go where they have never been. 
->Out-of-state visitors likely have never been here, and are in need of a little good advice on where to go! 
+* Out-of-state visitors, needing a guide on where to go! 
+* Local people who are in need of a quick and fast in state getaway!
 
->Many local people have never been as far as 2 hours away from their home in there entire life!
+
 
 
 ## Client component
@@ -27,23 +28,25 @@ My app will use input from the user and turn it into pictures of places to see, 
     
 ### Device/external services
 
-* On the city entered , it could also pop up a  link to click on. It would be using a web service that is specific to northern New Mexico.
+* On the city entered, it could also pop up a link to click on. It would be using a web service that is specific to Northern New Mexico. 
+* This will allow Google location to find you to show you how far and or the directions to what point of interest that you are headed to.
 
 ## Server component 
 * The app would provide pictures and information on the place, being put in by the person, on where points of interest, and cool places to see.
 
 
 ### Functionality
-* The app would provide information on the link provided according to the city name typed in and surrounding area. Pictures and descriptions of places would also be provided.
+* The app would provide information on the link provided according to the city name typed in and surrounding area. Pictures and descriptions of places would also be provided. 
+You would be able to search your destination and find a point of interest.
 
 
 ### Persistent Data
 * The user will be able to type in the name of the city and be directed to a link for that city, as well as places of interest in the surrounding area.
-    
+I personally would like to have a point of interest, for all the places I know! 
 ### External services
 
 * So the user will also have a link, if the particular place where they are going has one, to access.
     
 ## Stretch goals/possible enhancements
 
-* A goal would be to automatically have a picture pop up of a cool place when the city is entered.
+* A goal would be to have users add input to their points of interest, as well as pictures.

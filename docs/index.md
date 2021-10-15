@@ -22,7 +22,7 @@ My app will use input from the user and turn it into pictures of places to see, 
 
 ### Functionality
 
-* The person using this app will be able to type in the name of a city , and see the surrounding area and be able to see some cool places in that area!
+* The person using this app will be able to type in the name of 3 cities, and see the surrounding area and be able to see some cool places in that area!
 
 * The local content will consist of two different places of interest local to that area. 
     
@@ -36,12 +36,12 @@ My app will use input from the user and turn it into pictures of places to see, 
 
 
 ### Functionality
-* The app would provide information on the link provided according to the city name typed in and surrounding area. Pictures and descriptions of places would also be provided. 
+* The app would provide information on the link provided according to one of the 3 cities name typed in and surrounding area. Pictures and descriptions of places would also be provided. 
 You would be able to search your destination and find a point of interest.
 
 
 ### Persistent Data
-* The user will be able to type in the name of the city and be directed to a link for that city, as well as places of interest in the surrounding area.
+* The user will be able to type in the name of 3 cities, Chama, Chimayo, and Espanola, and be directed to a link for that city, as well as places of interest in the surrounding area.
 I personally would like to have a point of interest, for all the places I know! 
 ### External services
 

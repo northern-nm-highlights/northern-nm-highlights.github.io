@@ -10,10 +10,14 @@ My app will use input from the user and turn it into pictures of places to see, 
 
 ## Intended users
 
-* Users will be an out-of-state visitor, visiting Northern New Mexico and wanting some good advice as where to go. 
-* Northern New Mexico people needing a place to go where they have never been. 
-* Out-of-state visitors, needing a guide on where to go! 
+* Users will be an out-of-state visitor, visiting Northern New Mexico and wanting some good advice as where to go.
+> As an out-of-state visitor, I want an app that I can use to look up new places to go and explore. 
+
+* Northern New Mexico people needing a place to go where they have never been.
+> As a resident of Northern New Mexico wanting to find a new point of interest I've never seen, I want an app that helps me locate new places in my area.
+
 * Local people who are in need of a quick and fast in state getaway!
+> As a resident of New Mexico, I want an app that gives me new places to explore in the Northern region of New Mexico to help me get away from the city! 
 
 
 

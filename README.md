@@ -28,4 +28,4 @@ Team agreed to meet up at 7:45 a.m everyday.
 
 ## Team work session schedule
 
-Team will work on project on sunday at 8 a.m until we decide to end our session.
+Team will work on project on Sunday at 8 a.m until we decide to end our session.

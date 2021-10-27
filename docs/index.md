@@ -33,26 +33,26 @@ My app will use input from the user and turn it into pictures of places to see, 
 
 ### Functionality
 
-* The person using this app will be able to type in the name of 3 cities, and see the surrounding area and be able to see some cool places in that area!
+* The person using this app will be able to use an inner active map of New Mexico cities, and see the surrounding areas. 
 
-* The local content will consist of two different places of interest local to that area. 
+* The local content will consist of different places of interest to that area. 
     
 ### Device/external services
 
-* On the city entered, it could also pop up a link to click on. It would be using a web service that is specific to Northern New Mexico. 
-* This will allow Google location to find you to show you how far and or the directions to what point of interest that you are headed to.
+* On the map, you will a select a point of interest. It will be using a web service that is specific to Northern New Mexico. 
+* This will allow Google location to find your location to show you how far and or the directions to what point of interest that you are headed to.
 
 ## Server component 
 * The app would provide pictures and information on the place, being put in by the person, on where points of interest, and cool places to see.
 
 
 ### Functionality
-* The app would provide information on the link provided according to one of the 3 cities name typed in and surrounding area. Pictures and descriptions of places would also be provided. 
-You would be able to search your destination and find a point of interest.
+* The app would provide information on the point of interest, and name typed in and surrounding area. Pictures and descriptions of places would also be provided. 
+You would be able to search your destination with a map, and find a point of interest.
 
 
 ### Persistent Data
-* The user will be able to type in the name of 3 cities, Chama, Chimayo, and Espanola, and be directed to a link for that city, as well as places of interest in the surrounding area.
+* The user will be able to use a map and be directed to the surrounding area for that city, as well as places of interest in the surrounding area.
 I personally would like to have a point of interest, for all the places I know! 
 ### External services
 

@@ -64,7 +64,7 @@ You would be able to search your destination with a map, and find a point of int
 
 ### Persistent Data
 
-* The user will be able to use a map and be directed to the surrounding area for that city, as well as places of interest in the surrounding area.
+* The user will be able to use a map and be directed to the surrounding area for that place, as well as places of interest in the surrounding area.
 I personally would like to have a point of interest, for all the places I know! 
 
 ### External services

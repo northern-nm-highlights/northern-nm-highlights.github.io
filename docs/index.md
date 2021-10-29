@@ -39,21 +39,34 @@ My app will use input from the user and turn it into pictures of places to see, 
     
 ### Device/external services
 
-* On the map, you will a select a point of interest. It will be using a web service that is specific to Northern New Mexico. 
-* This will allow Google location to find your location to show you how far and or the directions to what point of interest that you are headed to.
+#### Google Places API
 
-## Server component 
+* [Overview](https://developers.google.com/maps/documentation/places/web-service/overview)
+* TODO Summarize the functional role of google places API in the application.
+* TODO What is the impact on the application if google places API is unavailable.
+
+#### Google Maps
+
+* [Overview](https://developers.google.com/maps/documentation/android-sdk/overview)
+* TODO Summarize the functional role of google maps API in the application.
+* TODO What is the impact on the application if google maps API is unavailable.
+
+## Server component
+
 * The app would provide pictures and information on the place, being put in by the person, on where points of interest, and cool places to see.
 
 
 ### Functionality
+
 * The app would provide information on the point of interest, and name typed in and surrounding area. Pictures and descriptions of places would also be provided. 
 You would be able to search your destination with a map, and find a point of interest.
 
 
 ### Persistent Data
+
 * The user will be able to use a map and be directed to the surrounding area for that city, as well as places of interest in the surrounding area.
 I personally would like to have a point of interest, for all the places I know! 
+
 ### External services
 
 * So the user will also have a link, if the particular place where they are going has one, to access.

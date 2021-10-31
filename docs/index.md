@@ -18,14 +18,17 @@ My app will use input from the user and turn it into pictures of places to see, 
 ## Intended users
 
 * Users will be an out-of-state visitor, visiting Northern New Mexico and wanting some good advice as where to go.
-> As an out-of-state visitor, I want an app that I can use to look up new places to go and explore. 
+> As an out-of-state visitor, I want an app that I can use to look up new places to go and explore, when hiking.
+> When visiting a certain place and the phone does not service, having a trail map downloaded on the phone from the app beforehand when phone did work.
+
 
 * Northern New Mexico people needing a place to go where they have never been.
 > As a resident of Northern New Mexico wanting to find a new point of interest I've never seen, I want an app that helps me locate new places in my area.
+> As an explorer, wanting to find a hot spring or waterfall would be useful to have an app with directions, pictures, and maps.
 
 * Local people who are in need of a quick and fast in state getaway!
 > As a resident of New Mexico, I want an app that gives me new places to explore in the Northern region of New Mexico to help me get away from the city! 
-
+> Back country places that are not easily assessable, finding them through this app will be great!  
 
 
 
@@ -38,6 +41,8 @@ My app will use input from the user and turn it into pictures of places to see, 
 * The local content will consist of different places of interest to that area. 
     
 ### Device/external services
+* This will be a service that you can download to your phone before you get to the area when your phone don't work.
+* This will include maps, trail maps, pictures, and landmarks on how to get there.
 
 #### Google Places API
 

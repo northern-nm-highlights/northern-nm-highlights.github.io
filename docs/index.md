@@ -47,14 +47,18 @@ My app will use input from the user and turn it into pictures of places to see, 
 #### Google Places API
 
 * [Overview](https://developers.google.com/maps/documentation/places/web-service/overview)
-* TODO Summarize the functional role of google places API in the application.
-* TODO What is the impact on the application if google places API is unavailable.
+
+[comment]: <> (* TODO Summarize the functional role of google places API in the application.)
+
+[comment]: <> (* TODO What is the impact on the application if google places API is unavailable.)
 
 #### Google Maps
 
 * [Overview](https://developers.google.com/maps/documentation/android-sdk/overview)
-* TODO Summarize the functional role of google maps API in the application.
-* TODO What is the impact on the application if google maps API is unavailable.
+
+[comment]: <> (* TODO Summarize the functional role of google maps API in the application.)
+
+[comment]: <> (* TODO What is the impact on the application if google maps API is unavailable.)
 
 ## Server component
 

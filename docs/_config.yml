@@ -6,13 +6,13 @@ page_navigator:
 titles_from_headings:
   enabled: false
 
-# Modify the contents below for the specific project.
 
-title: "Northern New Mexico Highlights"       # Write the project title inside the quotes.
+
+title: "Northern New Mexico Highlights"
 description: "An app that will tell you the highlights of places to go see,
- while in or close to a particular city. "  # Write the project description inside the quotes
-author:                                  # Don't do anything with this line!
-  name: "Layla Coriz, Mark Waid Jr., Nicholas Mitchell, Royce Reano"           # Write your name inside the quotes.
+ while in or close to a particular city. "
+author:
+  name: "Layla Coriz,  Nicholas Mitchell, Royce Reano"
 
-# Do not modify the following line!
+
   copyright: true  

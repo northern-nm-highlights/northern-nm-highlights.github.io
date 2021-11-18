@@ -5,6 +5,12 @@ menu: Overview
 order: 0
 ---
 
+## Team Roster
+
+* Nicholas Mitchell-
+* Layla Coriz-
+* Royce Reano-
+
 ## Summary
 
 This app will show you what places to visit and what to see when visiting a certain city or surrounding area, in Northern New Mexico.

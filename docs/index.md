@@ -7,9 +7,9 @@ order: 0
 
 ## Team Roster
 
-* Nicholas Mitchell-
-* Layla Coriz-
-* Royce Reano-
+* Nicholas Mitchell- Lead on Javadocs/help with others if needed.
+* Layla Coriz- Lead on Controllers/help with others if needed.
+* Royce Reano- Lead on Wireframe/help with others if needed. 
 
 ## Summary
 

@@ -1,0 +1,6 @@
+edu.cnm.deepdive.codebreaker
+edu.cnm.deepdive.codebreaker.configuration
+edu.cnm.deepdive.codebreaker.controller
+edu.cnm.deepdive.codebreaker.model.dao
+edu.cnm.deepdive.codebreaker.model.entity
+edu.cnm.deepdive.codebreaker.service

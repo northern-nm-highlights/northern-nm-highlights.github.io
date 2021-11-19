@@ -26,13 +26,12 @@ order: 20
 ## Controller Classes
 
 * [`UserController`](https://github.com/northern-nm-highlights/service/blob/main/src/main/java/edu/cnm/deepdive/nnmhlserver/controller/UserController.java)
-* []()
-* []()
+* [`FavoritePlaceController`](https://github.com/northern-nm-highlights/service/blob/main/src/main/java/edu/cnm/deepdive/nnmhlserver/controller/FavoritePlaceController.java)
 
 ## Configuration Classes
 
 * [`SecurityConfiguration`](https://github.com/northern-nm-highlights/service/blob/main/src/main/java/edu/cnm/deepdive/nnmhlserver/configuration/SecurityConfiguration.java)
 
-## Application Class
+## [NnmhlServerApplication](https://github.com/northern-nm-highlights/service/blob/main/src/main/java/edu/cnm/deepdive/nnmhlserver/NnmhlServerApplication.java)
 
 ## [Javadocs](apidocs/)

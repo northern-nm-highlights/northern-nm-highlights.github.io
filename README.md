@@ -3,7 +3,7 @@
 Northern New Mexico highlights: An app that will tell you the highlights of places to go see,
 while in or close to a particular city.
 
-Copyright (C) 2021  Layla Coriz, Mark Waid Jr., Nicholas Mitchell, Royce Reano
+Copyright (C) 2021  Layla Coriz, Nicholas Mitchell, Royce Reano
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

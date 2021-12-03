@@ -16,7 +16,6 @@ create table place_type
     display_name  varchar(50) not null,
     external_key  UUID        not null,
     name          varchar(50) not null,
-    user_id       UUID        not null,
     primary key (place_type_id)
 );
 create table user_profile
@@ -45,5 +44,3 @@ alter table user_profile
     add constraint UK_6f815wi5o4jq8p1q1w63o4mhd unique (oauth_key);
 alter table favorite_place
     add constraint FK95jduuq1wuffem82axk9c7cqt foreign key (user_id) references user_profile;
-alter table place_type
-    add constraint FK1lybu84llxdpv603sed4o3vpw foreign key (user_id) references user_profile;

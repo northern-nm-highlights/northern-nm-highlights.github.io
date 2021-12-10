@@ -1,0 +1,6 @@
+edu.cnm.deepdive.nnmhlserver
+edu.cnm.deepdive.nnmhlserver.configuration
+edu.cnm.deepdive.nnmhlserver.controller
+edu.cnm.deepdive.nnmhlserver.model.dao
+edu.cnm.deepdive.nnmhlserver.model.entity
+edu.cnm.deepdive.nnmhlserver.service

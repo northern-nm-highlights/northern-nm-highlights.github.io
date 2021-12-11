@@ -11,15 +11,33 @@ order: 0
 * Layla Coriz- Lead on Controllers/help with others if needed.
 * Royce Reano- Lead on Wireframe/help with others if needed. 
 
-## Summary
+## Project Introduction and description.
 
 This app will show you what places to visit and what to see when visiting a certain city or surrounding area, in Northern New Mexico.
 The surrounding "Highlights" of that city will appear. "Highlights" being points of interest, historical markers, churches,
 or even just a great restaurant! The user will be able to find some of the most interesting and highly recommended
-places to visit and see in the great wilderness and cities of Northern New Mexico! 
+places to visit and see in the great wilderness and cities of Northern New Mexico! My app will use input from the user and turn it into pictures of places to see, as well as a description of the places as well. 
+When a person using the app goes to the selected destination, the app will be able to store a map and landmarks when your is not connected with the internet.
 
-My app will use input from the user and turn it into pictures of places to see, as well as a description of the places as well.
+I chose to develop this app because I'm interested in having information on trails and hiking maps when my phone does not get service to the internet.
+This would be useful to others who are interested in going somewhere they have never been and able to see a map to guide them and interesting landmarks.
 
+This app allows the user to use a map for finding and sorting out different place types in the area interested in visiting. 
+This information found by searching the place type can be saved to the phone by favoriting a location or a landmark.
+
+## Summary of current state 
+
+### Current state of completion
+
+* Current state here
+
+### Aesthetic and cosmetic improvements
+
+* The colors and background pictures.
+
+### Functional improvements
+
+* To be able to save more information on the place visiting.
 
 ## Intended users
 
@@ -36,7 +54,40 @@ My app will use input from the user and turn it into pictures of places to see, 
 > As a resident of New Mexico, I want an app that gives me new places to explore in the Northern region of New Mexico to help me get away from the city! 
 > Back country places that are not easily assessable, finding them through this app will be great!  
 
+## Basic user instructions
 
+The user will open the app to a map where they can select a location. Then they will pick a favorite place type from a list to visit.
+If the user is interested in downloading the information about the current place type they can favorite it to save it to their phone. 
+
+## Outlines of technology stacks
+
+### Back end
+
+* Ubuntu Linux OS
+* Apache HTTP server configured as reverse proxy
+* JRE 8
+* Apache Tomcat Java application server
+* Web service application, incorporating:
+  * Data model
+    * Embedded Apache Derby database
+    * Hibernate ORM
+    * Custom entity classes
+    * Spring Boot Data
+    * Custom data repository interfaces
+  * Service controllers
+    * Spring MVC
+    * Custom controller classes
+  * View composition & serialization
+    * Jackson JSON
+    * Custom view classes & interfaces
+  * Authentication
+    * Spring Security
+    * Google Sign In (external service)
+    * Custom authentication verifier method for audience (client ID)
+
+### Front end
+
+* FILLIN
 
 ## Client component
 

@@ -5,7 +5,7 @@ menu: DDL
 order: 40
 ---
 
-## Server-side database
+## Server-side 
 
 ```h2
 create table favorite_place
@@ -58,7 +58,7 @@ alter table favorite_place
 
 [`service-ddl.sql`](sql/service-ddl.sql)
 
-## Client-side DDL
+## Client-side 
 
 ```sqlite
 CREATE TABLE IF NOT EXISTS `favorite_place`

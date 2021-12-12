@@ -1,11 +1,3 @@
----
-title: Data definition language for service component.
-description: SQL statements to materialize physical data model.
-menu:  Service DDL
-order: 40
----
-
-```h2
 create table favorite_place
 (
     favorite_place_id UUID         not null,
@@ -52,6 +44,3 @@ alter table user_profile
     add constraint UK_6f815wi5o4jq8p1q1w63o4mhd unique (oauth_key);
 alter table favorite_place
     add constraint FK95jduuq1wuffem82axk9c7cqt foreign key (user_id) references user_profile;
-```
-
-[`ddl.sql`](sql/ddl.sql)

@@ -1,7 +1,7 @@
 ---
-title: Data definition language.
+title: Data definition language for service component.
 description: SQL statements to materialize physical data model.
-menu: DDL
+menu:  Service DDL
 order: 40
 ---
 

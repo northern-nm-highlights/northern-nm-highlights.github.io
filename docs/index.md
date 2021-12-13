@@ -29,13 +29,26 @@ This information found by searching the place type can be saved to the phone by 
 
 ### Current state of completion
 
-* Current state here
+The app allows the user to sign in and out with google sign in. The app displays a map and a list of place types. 
+It also has a settings screen that allows you to choose from map, place types, and favorite places.
+
+Known deficiencies: 
+
+* The app does not yet lead to a visual of place types. 
+
+* It does not currently allow you to choose a place type.
+
+* The app will soon allow to favorite a place type and save it to your device.
 
 ### Aesthetic and cosmetic improvements
 
-* The colors and background pictures.
+* The colors should be more vibrant. 
+
+* The background pictures.
 
 ### Functional improvements
+
+* A goal would be to have users add input to their points of interest, as well as pictures.
 
 * To be able to save more information on the place visiting.
 
@@ -64,44 +77,124 @@ If the user is interested in downloading the information about the current place
 ### Back end
 
 * Ubuntu Linux OS
+
 * Apache HTTP server configured as reverse proxy
+
 * JRE 8
+
 * Apache Tomcat Java application server
+
 * Web service application, incorporating:
+
   * Data model
+  
     * Embedded Apache Derby database
+    
     * Hibernate ORM
+    
     * Custom entity classes
+    
     * Spring Boot Data
+    
     * Custom data repository interfaces
+    
   * Service controllers
+  
     * Spring MVC
+    
     * Custom controller classes
+    
   * View composition & serialization
+  
     * Jackson JSON
+    
     * Custom view classes & interfaces
+    
   * Authentication
+  
     * Spring Security
+    
     * Google Sign In (external service)
+    
     * Custom authentication verifier method for audience (client ID)
 
 ### Front end
 
-* FILLIN
+* Android OS
 
-## Client component
+* Data model
 
-### Functionality
+  * SQLite
+  
+  * Room ORM
+  
+  * Custom entity and other model classes
+  
+  * Custom type converters
+  
+  * Data access object (DAO) interfaces
+  
+* Remote service interfaces
 
-* The person using this app will be able to use an inner active map of New Mexico cities, and see the surrounding areas. 
+  * Retrofit
+  
+  * ReactiveX
+  
+  * Gson
+  
+  * Custom serializer/deserializers
+  
+* Viewmodel components
 
-* The local content will consist of different places of interest to that area. 
-    
-### Device/external services
+  * Android Lifecycle framework (ViewModel & LiveData)
+  
+  * Custom viewmodel classes
+  
+* View
+
+  * Custom RecyclerView.Adapter and RecyclerView.Holder classes
+  
+  * Custom layouts
+  
+* Controller
+
+  * Custom activity and fragment classes
+  
+* Authentication
+
+  * Google Sign In (external service) 
+  
+  * Custom sign in service class
+
+## Build instructions
+
+### Server side
+
+* From the git hub repository click the green code button and make that the ssh is selected. Then click the copy icon.
+
+* Go to intelJ and select new project from git version control and paste the link and clone the project.
+
+* Then run the server.
+
+### Client side 
+
+* From the git hub repository click the green code button and make that the ssh is selected. Then click the copy icon.
+
+* Go to intelJ and select new project from git version control and paste the link and clone the project.
+
+* Move or store northern-nm-highlights.properties to services directory at the location (projectDir/../../../services/northern-nm-highlights.properties).
+
+* Modify northern-nm-highlights.properties so that directs to your local server.
+
+* Run the app on the device of your choosing.
+
+## Device/external services
+
 * This will be a service that you can download to your phone before you get to the area when your phone don't work.
+
 * This will include maps, trail maps, pictures, and landmarks on how to get there.
 
-#### Google Places API
+### Google Places API
 
 * [Overview](https://developers.google.com/maps/documentation/places/web-service/overview)
 
@@ -109,38 +202,13 @@ If the user is interested in downloading the information about the current place
 
 [comment]: <> (* TODO What is the impact on the application if google places API is unavailable.)
 
-#### Google Maps
+### Google Maps
 
 * [Overview](https://developers.google.com/maps/documentation/android-sdk/overview)
 
 [comment]: <> (* TODO Summarize the functional role of google maps API in the application.)
 
 [comment]: <> (* TODO What is the impact on the application if google maps API is unavailable.)
-
-## Server component
-
-* The app would provide pictures and information on the place, being put in by the person, on where points of interest, and cool places to see.
-
-
-### Functionality
-
-* The app would provide information on the point of interest, and name typed in and surrounding area. Pictures and descriptions of places would also be provided. 
-You would be able to search your destination with a map, and find a point of interest.
-
-
-### Persistent Data
-
-* The user will be able to use a map and be directed to the surrounding area for that place, as well as places of interest in the surrounding area.
-I personally would like to have a point of interest, for all the places I know! 
-
-### External services
-
-* So the user will also have a link, if the particular place where they are going has one, to access.
-    
-## Stretch goals/possible enhancements
-
-* A goal would be to have users add input to their points of interest, as well as pictures.
-
 
 ## Copyright and License
 
@@ -159,3 +227,92 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+## Android standard libraries, support libraries, Material components, Google Play
+
+Copyright (C) 2007--present The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+<http://www.apache.org/licenses/LICENSE-2.0>
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Gson
+
+Copyright 2008 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## ReactiveX RxJava & RxAndroid
+
+Copyright (c) 2015--present, RxJava Contributors.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Retrofit & OkHttp
+
+Copyright 2013 Square, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Stetho
+
+MIT License
+
+Copyright (c) Facebook, Inc. and its affiliates.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+

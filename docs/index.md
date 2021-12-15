@@ -11,7 +11,9 @@ order: 0
 * Layla Coriz- Lead on Controllers/help with others if needed.
 * Royce Reano- Lead on Wireframe/help with others if needed. 
 
-## Project Introduction and description.
+## Project Introduction and description 
+
+[PDF](pdf/NNMHL Summary.pdf)
 
 This app will show you what places to visit and what to see when visiting a certain city or surrounding area, in Northern New Mexico.
 The surrounding "Highlights" of that city will appear. "Highlights" being points of interest, historical markers, churches,
